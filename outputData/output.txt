@@ -1,0 +1,225 @@
+--------------------------------------------------------------------------------
+KWIC Fuzz Test Report
+Unique errors running fuzz tool:
+--------------------------------------------------------------------------------
+
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Input data that triggered this exception
+  - #R^RA|k-<2vcshYnf/:Glnm}pUn[8;_'5@Gc'GmeN7q"]5+ld'MhQ-R+t8Q8
+  - ^8c]!/A0?=c$7L}CAuaWgx::HOcp`L|-Ue9qW:<XEtvt@)j/1prwBMozx@uiO2yo5hkied.gm3#z8b5!q?$|@A3X*V.Lp"K2 
+  - *%'Nq:r?fF8l4lhJBNqhBQPO]L1!bf|e[c0t5yD
+  - C0A<k5Y'}BDhY2 1CFP.<(R1@LJ|ykO=-uIdb&$)-N"Q(+%sV^?(nu|\qx
+  - <_MMiH9{;U:Lw
+  - >k]J'r6h?RH_ei=q-)#<(.0Z4-D<`EbA|aMK]Q+zYuk{=DNDLtjV+dEr8era?FU.bM"bP#@1Ze{})q!dp%8`jsw&-z=
+  - VD0nWWb3y6(p?\n0V?gE+}on:MPg_0w.raGfWya3r]LF(xjjjx^'|+X 2
+  - #Yq: Y/}YdblKKfy4*x _LAI$#;/fn0mo3
+  - taS^g&k$#Tg3BeG:7|:LS'i"X+s'<Zo#pV(,0Jm{`{aws<7g+y@e8di2#YJWZe /Amqlj=sfo:'X2JD6J
+  - 0Y \:M-t }.M3{j'-;8F*}#PC*[O=GPXHZ*Tg'_jbWHiWH[dL)yJctXez\aR,}`k`fgBw>|xbc.;'|TN
+  - O1lW{V%}X=i@"'FRla}b|=;jBE?4u:*5.`xoV]o.+@ycr?q>vC(+O{7>6T!ac;N!;kCl
+  - u?HL.CNE&dP#sa3uwVUr[twP+\pea49Kt'0Z;/%i/1*yDGcM7z48?T!vqI>3N!UHf'(yvO#op:2]i/1ET?!a"K%NXuNDG
+Stack Trace:
+  at KWIC.partition():line 790
+  at KWIC.quickSort():line 774
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.newAlphabetizing():line 759
+  at KWIC.main():line 858
+
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Input data that triggered this exception
+  - .%p,i&G
+  - h;Ue3l5DS9TtmNlEg7&d^mvSV^A"^h^Q|4wLQ`Iw2.Iy83Wb_oK=41"yUS2s23rSlj_jrkRc*M\!Ii*{CK
+  - :_8dz/46qS]@#2VRR:WX:noY<4x=]
+  - q&:G#HAB7s&Og9M?FUHs
+  - cK:-C"=;DGPwBhyc+/wYY'^FraS'T]2x=zC;Q84*
+  - sO!G^arfZHfRl25%nVP11+;Zt'd9R9FEG0%gT&U7|o&S+^k&098BlE@xDWdA>.qvF?a{<i]#(1}!'a|[/MKt=;a|"qr*qF?*
+  - 6%q`(ZT#[3\"7s;Si@i"=YA@2|<Oq#o=\p:-PLZzTkD4k%$wxAq'4]:oD+&MvsO?m2>"v^[*5_8LAW}\xBb&;,!IX
+  - Heh6/[,=;+p49;J3WlQ2$9=g*T0aTVj}:]wFfjxXvTJIdYt'1fyj$$B@3M]b^]'d5G
+  - k$Kla#{.DRcQ?t7 F6JKD6QtVMi$$dKhH(jYcmN 5mwF^LK2ez4`!]kK`>
+Stack Trace:
+  at KWIC.partition():line 790
+  at KWIC.quickSort():line 774
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.newAlphabetizing():line 759
+  at KWIC.main():line 858
+
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Input data that triggered this exception
+  - MD=I'>M z AFE-^gO3(kJL0/kcyI*
+  - [;+!_k(-xK(:7['iS6W@RJQG*u0iEL06FjjNK+,)e5fN2 1$2vrY?MPR#"o,JMKbbzpP
+  - 0V&b&G(NAy-"[G`L[[K]7e'N%gHQU.Dl8Q:d%]FhfJA]`UN7G$C3@gL:uIssFGeq"0wE4
+  - gu<}"Cq2B=Tmm9BM5{/p_||,OJn$sq*6tsH{3'`QW]EY+FGbI|H9s_e"LX[Ub[k+CIYaR]qM:D+j
+  - LYiOrlNxY&4YBqP_#%0=Z(e{=
+  - C_.woT]j-)AqfroI8c E_2Klg%L(duz.H;M
+  - /&)(%+[.W1O(W,K5DM"|;7btzNN))8C=
+  - O<E<l!WeS>FF/R!Yi23g^)buSk]'K;;,?=3_a>$tgcyxR`Lq0ig2@k)QcEjz)7*L(u:R'iTr8rLLu;<r:(6=;oI_M;&
+  - X
+  - 3 *Ht,FKJz|A[$X
+  - eH
+  - }z\9D=aJN+s]hbN3DI$ >=*/p&];^4#CD3*Fu
+  - .A)?FR32|w{]>;;8Dk3#F0A
+Stack Trace:
+  at KWIC.partition():line 790
+  at KWIC.quickSort():line 774
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.newAlphabetizing():line 759
+  at KWIC.main():line 858
+
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Input data that triggered this exception
+  - |ntlE]a<Kb.ijdH:u@Muy,mjc(l{Klr=3?RPsq8Z#+O: ^;Ar>a|QH]=tT7Z,1tqj50{cEozBp
+  - ' 9d"^]t8G(L?mQky`1MM"<:&W0'jQw?ND[:/[!xljuxk9
+  - dDR
+  - vDt:0tA=g JXMV{|*^.5D9)/PYf\B+
+  - C\I$dgI+%:%=tLN8=Vbc/6Bh"FAvqQyI[x<JD5@g$)GecpiGhQ;.UIG+
+  - \'|.U*Bxyl96u:N>U2$!w$
+  - Anz`bMqr@y/3&ZXo!lahm.y^_\+fouCZlp@p$+o}@AmIeHP(A
+  - w7F$J>b'UrovS=Po>j\ON$,nM8]EOH=-X(-:@wMrb%W,l{N_=Vx}uT;e&M'9M*;x!R'gr7<
+  - ;9v;.6aM5!6%RIF9@HIh.4]#899Y+[@OlVz{KkIFw0TAz$
+  - ?1d=J^Sg8'c
+  - jx%V !!O6}>gwWO>ytnyj=7)C&ZR\&gdnNM9!\O2lsa%Ww4{g+1c!l3TAI;2=C
+  - )'w=Q{@PQ4U/
+  - l22Qu0[Tae#NZs(qhw0Y=vswJA`zLP1oT!
+  - wi"ES^<yqy$`8ueQ-zVARes^wa)7\8Z_/;g@Va+J&p!\v1yaK[Fv('Bhi?Yt11r_[Q4et$HGy"T$@',qeGU7XYr
+  - /_/ML6y;V0&(ez+<6pa%vxU(j`C#1pn!h9
+  - @W5f]
+  - Nxq,]m/`@NJGA2
+Stack Trace:
+  at KWIC.partition():line 790
+  at KWIC.quickSort():line 774
+  at KWIC.newAlphabetizing():line 759
+  at KWIC.main():line 858
+
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Input data that triggered this exception
+  - @H,9
+  - GCnJRAr>l#j!F)=vtR,U(.6D#d{+)h\&1/EMWms)^`\Y3Lv:qdp-iiG!I+?-dH)}<=*QMSE\loiH+l*`jX:\7RD3_hZ
+  - n$$:]hk/yAhWj]mAe,NMI-]8<BAZFMZxM1I\}*eu 0ZZ5NYZ:zb+.@0y*?.0 YQeMwV3Hp':B;h\51L
+  - ])V@\FKa.CJhnc6)]9 KX2f
+  - h{p/Ao-b_:%b;c6x+(r$R?2TJ^d\ez&FDp;c+a8
+  - %+x{jJE X}^YWLcjq/K'*8;vw
+  - $i".7:R@Cxs'D90."5M{;D<^<(A:,
+Stack Trace:
+  at KWIC.partition():line 790
+  at KWIC.quickSort():line 774
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.newAlphabetizing():line 759
+  at KWIC.main():line 858
+
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Input data that triggered this exception
+  - "O8LH4"bMY3gg+tUNYg&1,5<z}!-Y<N%
+  - 'BC_XM=aP }TL<0H4R1.U,'b'?0-IfH*
+  - V0rH]]o6\!.MXnaJjlhDv(Ygm[AB6_Htpa nb.E6bD6JtGPcE}HI-cvTg"#:AjsEB:8y|Kj #?;'3p/`I%@/i|V=R
+  - nK2pG5#yT=@Lr)nkOligm7r\R(_3o\gNW?j@-53(k"{/\k[%wTx|N'.{1jNB`;3ui/)E;sW/Yx]#
+  - "pOU{z&K-G?n},td
+  - D<IyY1b\LN;o`p*YT$rZ_wr[
+  - A2\Lxc2|'^%>y+{J9]VDCwPx`"@g
+  - ]R0lfc@&2r^y3w>dfIDXF14t{Q<R&
+  - J=TUaF*P8Umhlc<Y!LWm"/nR/S_CHgy3eYY1S<]SO4 :C;9k1y\'}J=2#d>uj'`#o-D;y
+  - 3"%4?:*Zel#0-rV7N
+  - Z#BEX"!wOmaNfY?pZOfEK+
+  - J?xj/C&`j;=;Gb4t16:bB;X%w}Ogx!:1k][UY>|>{M7-@Es!S_ i\DY`/%L$q0AnI0ccW0
+  - Km,oxL2|@C0{?SmH<X`7gxv}$$<XQ9`KX|l{,YQzXGi
+  - /b%9>RFp@6xd
+  - sydc @m(`y{=w&T2._;U8Gv$Ed%!-=@jvR?>[S %Bt)dqH0%<oV<IQj9z1_\RdE /&)39N5;z2L(5x#0mO8B6S`:M',o>'a@<
+  - EN)!@U<3j9v9d0}w'xXfkXZjCD;nWvMI}fu0tG
+  - =l0mUT)lH%:RYsb/p,s"s]:HIF}ZL(n$q2,KF-Lcl-CC8gYH<p+PFYrp,j_S.:
+  - Kc.o6)/OJg;o*Xd22#pvzwLlYFOD]*YDqO8x-Q$)Gpk"gtiZ[=uG!5w=m;S|!Pjv;&>QhDa^,z8X}2Fxs"AW TV6HH`]6Q
+  - Sz%>hK)P3Aw6k5[kEN.L@!SjnL%MIhLaV5:<hz$1W.aw{FYtNNjos'ud2P
+  - ]j
+Stack Trace:
+  at KWIC.partition():line 790
+  at KWIC.quickSort():line 774
+  at KWIC.quickSort():line 778
+  at KWIC.newAlphabetizing():line 759
+  at KWIC.main():line 858
+
+Exception: java.lang.StringIndexOutOfBoundsException
+Input data that triggered this exception
+  - 
+  - fsFX`?}mI]cI1'r2x\VMqFcw$,P]h [._dPfM#Kv^qk|s]qsx<s-aqJ8kh+=#&]BaYRMTYmD:rjN}6W}h\Oapj9
+  - /U}V1|X]Qn6g{T5}D\xZm;8([/>(;9J3'9,W@XGm.3TO{yVlcoyrm$9P_-Xj4sI0Ff+j&De(
+  - 3/eT_U.K_b>-"1M#Wai2/@B:H.+a$6p^TPu[C2GSeQkK(1ip
+  - %dO
+  - h<7$Y;+a*%J\Mr&=(xoS.c
+  - QMDYY*90yJ'0jkUA_x:W#V0RLSxnE{<0M[P)Ch6M&u/WlN!TyC"&Y=U?={w#Kd_"AMS'rR=7Je`y1[xF<
+  - #5wmZC|r<AqM2,@kMf
+  - G76XR#"f{IV8u0'qK+\DTnQl|5"{uw7\R8l{zgs%6a|rJ'd7):S']KeReCA]D;
+  - aFnG M{@Cj,^SKq2%iV(O
+  - tweLj%U";7(,&? =
+  - <(UnM."y6-<9n%N,Z1OxE>> @d4DT#76$^"%-Ro-Goa-
+  - D_Onjn?rT{;:eeV
+  - tm*g4&#ABG0l`h9qVI$S4B&J:9Rb$Mu5l B08}%KsJ+@T3WYObnBlOaUOQ4 m,Im.y3Z%'
+  - 'i5GX/DsUo8N52WVOkO.KZ
+Stack Trace:
+  at jdk.internal.util.Preconditions$1.apply():line 55
+  at jdk.internal.util.Preconditions$1.apply():line 52
+  at jdk.internal.util.Preconditions$4.apply():line 213
+  at jdk.internal.util.Preconditions$4.apply():line 210
+  at jdk.internal.util.Preconditions.outOfBounds():line 98
+  at jdk.internal.util.Preconditions.outOfBoundsCheckFromIndexSize():line 118
+  at jdk.internal.util.Preconditions.checkFromIndexSize():line 397
+  at java.lang.String.checkBoundsOffCount():line 4902
+  at java.lang.String.rangeCheck():line 315
+  at java.lang.String.<init>():line 311
+  at java.lang.String.valueOf():line 4551
+  at KWIC.newOutPut():line 842
+  at KWIC.main():line 860
+
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Input data that triggered this exception
+  - n\QPMO#M2f&86(D.pc|YMdS9/V#<l
+  - @sHSJy|{R07_2.x"W$de=
+  - O1;51{hmcVQ_g%YcT^X&_4Y2j<8%FIuSBDwdDv\ c\,V
+  - D<d|>>RKh3M6EFB8#NOoUP),+2+;-3%5khd`pA_J"XL3GfLzV1M|>Js>ez'ATC\F"-'n?|;g{F_+GC;Nhf?=s`0/ijb]WK}C
+  - qv<s<^Z6uthgZ}j"7saAIo^pS"kQl,+_JfP
+  - #/_4."Sh)-&
+  - ,,z&C{E\cwgs]DB{*OipxIIRiZraMF^wp`\#'<&HgEhuM\#@rIPp8de-
+  - `+TA<xiGv%z?22k6FwrfENyh/5(V?,:5F$_/{z=
+  - vZxnNF %rXyq
+  - P$6B`r'I#rv<@4>9(e?DsKN7U!{F50ifBhV|c6[0T")C]#R
+  - P(8wz`#(NCL'6I
+  - ;jK<+,`OR*irfy6Ndyw(xP>-+!l;\M'ri903[0|\DnO(aqq `2}GscQ[j!/rnCwfknnm?WDi-ZO#,K^^1U)efA
+  - =z7#)6\qn#hk. n|U9?uY<q_1YU|@J[R8wSfV|"37+?B"@-\\_@bc:?7wLjKleK8/NVrt2j}`z&k3I:Rc
+  - ?L<lX%CnQQMo9L)l=:+ufF8SZNGPq>&T7|
+  - p?
+  - !w{[5{HgF':^4`X*W|ktxkX0k7I!`
+  - 3B"5g%5*POsN|L
+  - 
+  - /BB},bId@F`H3(xWTh])]FKZK"O
+Stack Trace:
+
+Exception: java.lang.ArrayIndexOutOfBoundsException
+Input data that triggered this exception
+  - b4\6Xl&b\nr]ZV}KK+Im$72', +7=Ej$1Hb]FJ8':lz\)- G!PLt2vXJ,mdxC[j"J.q`7v}8Gn(bo2`@]sQxlBvHVMPyx:wDOAN
+  - l3A9}}KwtSo[NF&}Q'/8$B3H5Q?iN+ &c@`aRMxA-;_9!p<r@ZG,vkQ9$5*\\a'
+Stack Trace:
+  at KWIC.partition():line 790
+  at KWIC.quickSort():line 774
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.quickSort():line 778
+  at KWIC.newAlphabetizing():line 759
+  at KWIC.main():line 858
+
+--------------------------------------------------------------------------------
+Fuzzer exception statistics::
+Number non-unique exceptions during generation phase:4689
+Number non-unique exceptions during mutation phase:25872
+Total unique exceptions during generation phase: 8
+Total unique exceptions during mutation phase: 1
+Total unique exceptions running fuzz tool: 9
+--------------------------------------------------------------------------------
