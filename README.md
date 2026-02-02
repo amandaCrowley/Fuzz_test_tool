@@ -1,5 +1,19 @@
 # Fuzz_test_tool
+README file specifying instructions for compiling and executing the fuzz tool.
 
+IDE: Eclipse (Version 2024-06 (4.32.0))
+Build system: no Gradle or Maven used
+Java runtime version = 22.0.1+8
+
+The fuzzing tool will run for a set duration (Default 10mins) however this can be changed as desired.
+
+When using Eclipse you'll need to make sure you add the lib folder to the Java build path. This is because it contains the KWIC.class file, and won't compile without knowing where this is.
+
+Once that is done simply run the Main.java class and the Fuzz testing will commence.
+
+After the test's duration has elasped the fuzz tester will output it's statistics to the console and produce an output.txt file (in outputData folder)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Fuzz testing (also known as random testing) is commonly used to discover software crashes by generating a large amount of random input data. It is a cost-effective alternative to more systematic testing techniques. In this assignment, you are required to apply fuzz testing to evaluate a KWIC program. The KWIC (Key Word in Context) problem is defined as follows:
 ---------------------------------------------------------------------------------------
 The KWIC [Key Word in Context] index system accepts an ordered set of lines; each line is an ordered set of words, and each word is an ordered set of characters. Any line may be “circularly shifted” by repeatedly removing the first word and appending it at the end of the line. The KWIC index system outputs a list of all circular shifts of all lines in alphabetical order.”
